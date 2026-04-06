@@ -83,15 +83,35 @@ Campus-Network-Design/
 ---
 
 ## 📸 Network Topology
-![Topology](topology/campus-topology.png)
+<p align="center">
+  <img src="topology/campus-topology.png" width="45%">
+</p>
 
 ---
 
 ## 📸 Configuration Screenshots
-![Static Routing](screenshots/static-routing.png)
-![ACL Configuration](screenshots/acl-config.png)
-![Ping Test](screenshots/ping-test.png)
-![IP Configuration](screenshots/ip-config.png)
+
+
+
+## Static Routing
+<p align="center">
+  <img src="screenshots/static-routing.png" width="45%">
+</p>
+
+## ACL configuration 
+<p align="center">
+  <img src="screenshots/acl-config.png" width="45%">
+</p>
+
+## Ping Test 
+<p align="center">
+  <img src="screenshots/ping-test.png" width="45%">
+</p>
+
+## IP Configuration 
+<p align="center">
+  <img src="screenshots/ip-config.png" width="45%">
+</p>
 
 ---
 
