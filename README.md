@@ -62,10 +62,8 @@ I am a Cloud and Network Engineer with hands-on experience in AWS, networking, a
 
 ## 📫 Contact
 
-Email: [gopinath06.m@gmail.com](mailto:gopinath06.m@gmail.com)
-
-LinkedIn: (www.linkedin.com/in/gopinath07m/)
-
+Email: [gopinath06.m@gmail.com](mailto:gopinath06.m@gmail.com) 
+LinkedIn: (www.linkedin.com/in/gopinath07m/) 
 GitHub: https://github.com/Gopinath-m07
 
 ---
