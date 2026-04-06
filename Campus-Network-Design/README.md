@@ -79,3 +79,21 @@ Campus-Network-Design/
 ├── README.md
 ├── topology/
 ├── screenshots/
+
+---
+
+## 📸 Network Topology
+![Topology](topology/campus-topology.png)
+
+---
+
+## 📸 Configuration Screenshots
+![Static Routing](screenshots/static-routing.png)
+![ACL Configuration](screenshots/acl-config.png)
+![Ping Test](screenshots/ping-test.png)
+![IP Configuration](screenshots/ip-config.png)
+
+---
+
+## 📄 Configuration Files
+Router configuration files are available in the `configs` folder including static routing configuration, ACL configuration, and IP addressing details.
