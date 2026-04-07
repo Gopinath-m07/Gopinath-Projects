@@ -1,1 +1,40 @@
 
+enable
+configure terminal
+
+hostname Core-Router
+
+interface gigabitEthernet0/0
+ ip address 10.0.0.2 255.0.0.0
+ no shutdown
+exit
+
+interface gigabitEthernet0/1
+ ip address 11.0.0.2 255.0.0.0
+ no shutdown
+exit
+
+interface gigabitEthernet0/2
+ ip address 12.0.0.2 255.0.0.0
+ no shutdown
+exit
+
+ip route 192.168.10.0 255.255.255.0 10.0.0.1
+ip route 192.168.20.0 255.255.255.0 11.0.0.1
+ip route 192.168.30.0 255.255.255.0 12.0.0.1
+
+access-list 101 deny icmp 192.168.20.0 0.0.0.255 192.168.10.0 0.0.0.255 echo
+access-list 101 deny icmp 192.168.30.0 0.0.0.255 192.168.10.0 0.0.0.255 echo
+access-list 101 permit icmp any any echo-reply
+access-list 101 permit ip any any
+
+interface gigabitEthernet0/1
+ ip access-group 101 in
+exit
+
+interface gigabitEthernet0/2
+ ip access-group 101 in
+exit
+
+end
+write memory
