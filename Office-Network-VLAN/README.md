@@ -78,3 +78,8 @@ Office-Network-VLAN/
 ├── README.md
 ├── topology/
 ├── screenshots/
+
+## Configuration Files
+
+Full configuration for router and switch is available in:
+configs/config.txt
